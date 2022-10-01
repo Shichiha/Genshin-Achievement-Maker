@@ -1,5 +1,5 @@
-import { genshinAchievement } from '../index';
+import { genshinAchievement } from '..';
 
 test('My Greeter', () => {
-    expect(genshinAchievement('').catch(console.log));
+    expect(genshinAchievement('a'.repeat(93)).catch(console.log));
 });
